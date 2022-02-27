@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+
+h1 {
+    color:white;
+}
+
+main {
+    text-align: center;
+    align-content: center;
+    margin-top: 5em;
+    margin-bottom: 10em;
+}
+
+button {
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    color: #ECD6C4;
+    background-color: #2F2325;
+    cursor: pointer;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+}
+
+#frase-gerada {
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-style: oblique;
+    color: white;
+}
+
+@media screen and (max-width: 400px) {
+
+main {
+    margin-top: 5em;
+    margin-bottom: 16em;
+}
+
+    h1 {
+    font-size: 95%;
+}
+
+#criatividade {
+    max-width: 256px;
+    max-height: 256px;
+    width: 100%;
+    height: 100%;
+}
+
+#frase-gerada {
+    font-size: 75%;
+}
+
+}
